@@ -25,9 +25,18 @@ dvc init
 '''
 
 '''bash
+touch filename.txt
+'''
+
+'''bash
 dvc repro
 '''
 
 '''bash
 dvc dag
+'''
+'''bash
+git add .
+git commit -m "comments"
+git push origin main
 '''
